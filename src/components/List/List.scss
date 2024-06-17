@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.photo-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+
+    .photo-list-3 {
+        margin-top: -3rem;
+        padding: 0 5rem;
+        width: 100%;
+        max-width: $max-width;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 5rem;
+        gap: 4rem;
+    }
+    .photo-list-5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .photo-list-2 {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: -3rem;
+        padding: 0 5rem;
+        width: 100%;
+        max-width: $max-width;
+        display: grid;
+        grid-auto-rows: 5rem;
+        gap: 4rem;
+    }
+    .photo-list-1 {
+        grid-template-columns: repeat(1fr);
+        margin-top: -3rem;
+        padding: 0 1rem;
+        width: 100%;
+        max-width: $max-width;
+        display: grid;
+        grid-auto-rows: 5rem;
+        gap: 1.5rem;
+        @media (max-width: $bp-m) {
+            margin-top: -2rem;
+        }
+    }
+}

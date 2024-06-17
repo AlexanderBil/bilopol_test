@@ -1,0 +1,15 @@
+.paginationWrapper {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  &--box {
+    button {
+      border-radius: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    &:first-child button {
+      margin-right: 10px;
+    }
+  }
+}

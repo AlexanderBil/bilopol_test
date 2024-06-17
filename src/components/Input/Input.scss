@@ -1,0 +1,41 @@
+@import '../../styles/variables';
+
+.header-form {
+    display: flex;
+    width: $max-width;
+    border-radius: $border-radius;
+    overflow: hidden;
+
+    .icon-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $white;
+        border: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .form-control {
+        height: 5rem;
+        width: 100%;
+        border: 0;
+        padding: 0;
+        @media (max-width: $bp-m) {
+            height: 4rem;
+        }
+        font: {
+            size: 20px;
+            weight: 600;
+        }
+        color: $dark-grey;
+
+        &:focus {
+            outline: 0;
+        }
+
+        &::placeholder {
+            color: $dark-grey;
+        }
+    }
+}

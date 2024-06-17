@@ -1,0 +1,70 @@
+@import './styles/variables';
+
+.appWrapper {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $mid-grey;
+        height: 23rem;
+
+        @media (max-width: $bp-m) {
+            height: 13rem;
+            padding: 0 1rem;
+        }
+
+        &--auth {
+            display: flex;
+            justify-content: flex-end;
+            max-width: 1180px;
+            width: 100%;
+            margin-bottom: 20px;
+            & div{
+                display: flex;
+                gap: 10px;
+                justify-content: flex-end;
+                align-items: center;
+
+                & .header--auth-logged-profile{
+                    padding-left: 30px;
+                    position: relative;
+                    &:before{
+                        content: url('../public/images/user-icon.svg');
+                        position: absolute;
+                        left: 7px;
+                    }
+                }
+            }
+            button {
+                padding: 5px 15px;
+                border-radius: 10px;
+                cursor: pointer;
+                font-size: $superSmall;
+                background-color: #80808047;
+            }
+
+            a {
+                padding: 5px 15px;
+                border-radius: 10px;
+                cursor: pointer;
+                font-size: $superSmall;
+                background-color: #80808047;
+            }
+        }
+
+        &--container {
+            display: flex;
+            max-width: 100%;
+            justify-content: space-between;
+        }
+        &--swith {
+            display: flex;
+            justify-content: flex-end;
+            max-width: 1180px;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+}

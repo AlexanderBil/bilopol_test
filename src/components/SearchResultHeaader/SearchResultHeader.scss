@@ -1,0 +1,35 @@
+@import '../../styles//variables';
+
+.result-header {
+    button {
+        width: fit-content;
+        padding: 15px 25px;
+        background: $dark-grey;
+        cursor: pointer;
+        opacity: 0.5;
+        color: $white;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: $max-width;
+    text-align: left;
+    justify-content: flex-start;
+
+    p {
+        font-size: $big;
+        font-weight: 900;
+        @media (max-width: $bp-m) {
+            font-size: $small;
+            font-weight: 600;
+        }
+
+        span {
+            opacity: 0.5;
+            text-transform: capitalize;
+        }
+    }
+}
