@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bilopol_test/static/css/main.62db58f1.css",
+    "main.js": "/bilopol_test/static/js/main.de382f81.js",
+    "static/js/453.518369df.chunk.js": "/bilopol_test/static/js/453.518369df.chunk.js",
+    "static/media/remove-button.svg": "/bilopol_test/static/media/remove-button.e4026202ebd73cec0e74.svg",
+    "index.html": "/bilopol_test/index.html",
+    "static/media/user-icon.svg": "/bilopol_test/static/media/user-icon.749175147ae80a811caf.svg",
+    "main.62db58f1.css.map": "/bilopol_test/static/css/main.62db58f1.css.map",
+    "main.de382f81.js.map": "/bilopol_test/static/js/main.de382f81.js.map",
+    "453.518369df.chunk.js.map": "/bilopol_test/static/js/453.518369df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62db58f1.css",
+    "static/js/main.de382f81.js"
+  ]
+}
